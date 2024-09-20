@@ -1,0 +1,213 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #fff;
+    font-family: "Poppins", sans-serif;
+    font-size: 18px;
+}
+header{
+    background-color: #1f2235;
+    padding: 28px 68px;
+    position: fixed;
+    width: 100%;
+  
+}
+.rowcontent{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 30px;
+ 
+}
+#brand-logo{
+    width: 100px;
+
+}
+
+nav a{
+    text-decoration: none;
+}
+nav li{
+    list-style-type: none;
+    padding: 20px;
+    margin-right: 28px;
+    padding-left: 20px;
+}
+
+li a:hover{
+    color: #ff4856;
+
+}
+
+
+/* this is the homepage styling */
+
+#home{
+    background-color: #24263b;
+    padding-top: 130px;
+}
+
+#leftbox{
+    padding-top: 50px;
+    padding-left: 70px
+;
+}
+.socialicon{
+    border: #ff4856 2px solid;
+    background-color: #24263b;
+    border-radius: 50px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    height: 40px;
+    margin-bottom: 40px;
+    width: 40px;
+}
+.socialicon:hover{
+    background-color: #db3949;
+}
+#header1{
+    font-size: 60px;
+    font-weight: 900;
+    margin-bottom: 20px;
+}
+#text{
+    font-size: 36px;
+    margin-bottom: 30px;
+}
+#profile{
+    width: 400px;
+    height: 600px;
+    }
+
+    
+/* #social{ */
+    /* padding-top: px; */
+    /* margin-right: 200px; */
+/* } */
+.button{
+    border: #db3949 2px solid;
+    background-color: #1f2235;
+    border-radius: 50px;   
+    height: 55px;
+    width: 170px;
+   
+
+}
+#play{
+    background-color: #db3949;
+    width: 80px;
+    height: 50px;
+    border-radius: 60px;
+    border: #db3949 2px solid;
+    margin-left: 20px;
+
+}
+.button:hover{
+    background-color: #db3949;
+}
+
+#social{
+    width: 300px;
+}
+
+/* services styles   */
+#services{
+    background-color: #24263b;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 100px;
+}
+
+.smalltitle{
+    font-size: 16px;
+    color: #ff4856;
+    font-weight: 500;
+    align-items: center;
+    justify-content: center;
+}
+
+.colcontent{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+}
+
+
+.service-card{
+    background-color: #1f2235;
+    width: 350px;
+    height: 350px;
+    border-radius: 24px;
+    padding: 10px;
+    margin:10px;
+
+
+}
+#bottombox {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 90%;
+    padding-left: 120px;
+}
+
+
+
+.service-card:hover{
+    background-color: #db3949;
+
+    }
+
+
+.service-card {
+    font-size: 48px;
+    margin-bottom: 20px;
+    padding-left: 30px;
+}
+
+.service-card i{
+    font-size: 40px;
+    color: #db3949;
+}
+
+
+
+.hit{
+    padding-top: 10px;
+}
+
+#bottombox{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    
+}
+
+.sectionpara{
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.9px;
+    margin-bottom: 30px;
+    width: 60%;
+    text-align: center;
+    justify-content: center;
+}
+
+.secserv{
+    font-size: 80px;
+}
+
+.divider{
+    width: 100px;
+    height: 2px;
+    border-color: #ff4856;
+    margin: 20px 0;
+}
