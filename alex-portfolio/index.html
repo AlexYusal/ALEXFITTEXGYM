@@ -1,107 +1,123 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="images/favicon.ico">
     <title>Alex Portfolio</title>
-</head>
+    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 <script src="https://kit.fontawesome.com/268cda13d6.js" crossorigin="anonymous"></script>
+
+</head>
+
 <body>
     <!-- header part -->
-     <header>
-            <div>
-                <img src="images/logo1.png" alt="amike logo" 
-                id="brand-logo">
+    <header class="rowcontent">
+        <div id="head">
+            <img src="images/logo1.png" alt="amike logo" id="brand-logo">
+        </div>
+
+        <nav>
+            <ul class="rowcontent">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#skill">Skill</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#blog">Blog</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- main part -->
+    <main>
+        <section id="home" class="rowcontent">
+            <div id="leftbox">
+
+                  <!-- social icons -->
+                <div class="rowcontent" id="social">
+                    <div class="socialicon">
+                        <i class="fa-brands fa-facebook"></i>
+                    </div>
+                    <div class="socialicon">
+                        <i class="fa-brands fa-telegram"></i>
+                    </div>
+                    <div class="socialicon">
+                        <i class="fa-brands fa-square-instagram"></i>
+                    </div>
+                    <div class="socialicon">
+                        <i class="fa-brands fa-square-x-twitter"></i>
+                    </div>
+                    <div class="socialicon">
+                        <i class="fa-brands fa-whatsapp"></i>
+                    </div>
+                </div>
+    
+                <!-- text contents -->
+                <h1 id="header1">I'm Alex Yusal</h1>
+                <p id="text">I'm Alex, professional web developer with long time experience in this field​</p>
+                <!-- first button  -->
+               
+                <div>
+                    <button class="button">My Portfolio</button>
+                    <button id="play"><i class="fa-solid fa-play"></i></button>    
+                </div>
             </div>
+          
+           
 
-            <nav>
-                <ul>
-                    <li><a href="#home">Home</a></li>
-                    <li><a href="#services">Services</a></li>
-                    <li><a href="#portfolio">Portfolio</a></li>
-                    <li><a href="#skill">Skill</a></li>
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#blog">Blog</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                </ul>
-            </nav>
-     </header>
-
-     <!-- main part -->
-      <main>
-        <section id="home">
-            <div id="leftbox"></div>
-            <!-- social icons -->
-<div>
-    <div class="socialicon">
-        <i class="fa-brands fa-facebook"></i>
-    </div>
-    <div class="socialicon">
-        <i class="fa-brands fa-telegram"></i>
-    </div>
-    <div class="socialicon">
-        <i class="fa-brands fa-square-instagram"></i>
-    </div>
-    <div class="socialicon">
-        <i class="fa-brands fa-square-x-twitter"></i>
-    </div>
-    <div class="socialicon">
-        <i class="fa-brands fa-whatsapp"></i>
-    </div>
-</div>
-<!-- text contents -->
- <h1>I'm Alex Yusal</h1>
- <p>I'm Alex, professional web developer with long time experience in this field​</p>
-  <!-- first button  -->
-   <button>My Portfolio</button>
-   <button><i class="fa-solid fa-play"></i></button>
-
-            <div id="rightbox"> <img src="images/man-01.png" alt="Amike picture">
+            <div id="rightbox"> <img src="images/man-01.png" alt="Amike picture" id="profile">
             </div>
         </section>
 
-        <section id="services">
-            <div id="topbox">
-                <p>services</p>
-                <h1>My Services</h1>
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorem maxime consectetur debitis illum nam ratione omnis corrupti. Quisquam modi similique cum at aliquid dignissimos sit ullam, laudantium iure corporis nostrum?</p>
+        <section id="services" class="colcontent">
+            <div id="topbox" class="colcontent">
+                <p class="smalltitle">services</p>
+                <h1 class="secserv">My Services</h1>
+                <p class="sectionpara">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorem maxime consectetur debitis illum
+                    nam ratione omnis corrupti. Quisquam modi similique cum at aliquid dignissimos sit ullam, laudantium
+                    iure corporis nostrum?</p>
             </div>
-            <hr>
+            <hr class="divider">
 
-            <div id="bottombox">
+            <div id="bottombox" class="rowcontent">
                 <div class="service-card">
                     <i class="fa-brands fa-github"></i>
-                <h3>web development</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum possimus dolorum esse accusamus sequi soluta dolore qui pariatur ea ipsam ipsa eveniet, dignissimos enim consectetur. Ipsa aut obcaecati culpa voluptas, accusantium, alias doloremque nobis atque eaque, a esse odio ea vitae? Dignissimos eos, quod modi dolorem reiciendis odio repudiandae optio sunt debitis exercitationem sapiente temporibus, inventore facilis expedita sit fugit voluptas, tenetur veritatis eveniet deleniti fugiat minus. Similique maiores et neque. Voluptatibus unde voluptate perferendis earum pariatur odit aliquam veritatis ipsum mollitia porro commodi nisi expedita ad nulla, atque consequatur optio quas ab ipsam tempora, recusandae asperiores! Suscipit animi a ducimus et corporis alias fugiat, quos neque voluptatum nisi dolorum quo quasi, nihil, repellendus quibusdam accusantium quidem iure recusandae totam. Cupiditate ea et voluptate nemo, commodi quisquam earum iusto placeat unde cumque, consequuntur iure. Autem voluptatem voluptatibus temporibus minus id aperiam iusto culpa maxime dignissimos necessitatibus, neque nihil pariatur nesciunt!</p>
+                    <h3>web development</h3>
+                    <p class="hit">Lorem Ipsum is simply dummy text of the printing typesetting industry. simply dummy</p>
                 </div>
                 <div class="service-card">
                     <i class="fa-solid fa-web-awesome"></i>
-                <h3>web design</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum possimus dolorum esse accusamus sequi soluta dolore qui pariatur ea ipsam ipsa eveniet, dignissimos enim consectetur. Ipsa aut obcaecati culpa voluptas, accusantium, alias doloremque nobis atque eaque, a esse odio ea vitae? Dignissimos eos, quod modi dolorem reiciendis odio repudiandae optio sunt debitis exercitationem sapiente temporibus, inventore facilis expedita sit fugit voluptas, tenetur veritatis eveniet deleniti fugiat minus. Similique maiores et neque. Voluptatibus unde voluptate perferendis earum pariatur odit aliquam veritatis ipsum mollitia porro commodi nisi expedita ad nulla, atque consequatur optio quas ab ipsam tempora, recusandae asperiores! Suscipit animi a ducimus et corporis alias fugiat, quos neque voluptatum nisi dolorum quo quasi, nihil, repellendus quibusdam accusantium quidem iure recusandae totam. Cupiditate ea et voluptate nemo, commodi quisquam earum iusto placeat unde cumque, consequuntur iure. Autem voluptatem voluptatibus temporibus minus id aperiam iusto culpa maxime dignissimos necessitatibus, neque nihil pariatur nesciunt!</p>
+                    <h3>web design</h3>
+                    <p class="hit">Lorem Ipsum is simply dummy text of the printing typesetting industry. simply dummy</p>
                 </div>
                 <div class="service-card">
                     <i class="fa-solid fa-video"></i>
-                <h3>Video Editing</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum possimus dolorum esse accusamus sequi soluta dolore qui pariatur ea ipsam ipsa eveniet, dignissimos enim consectetur. Ipsa aut obcaecati culpa voluptas, accusantium, alias doloremque nobis atque eaque, a esse odio ea vitae? Dignissimos eos, quod modi dolorem reiciendis odio repudiandae optio sunt debitis exercitationem sapiente temporibus, inventore facilis expedita sit fugit voluptas, tenetur veritatis eveniet deleniti fugiat minus. Similique maiores et neque. Voluptatibus unde voluptate perferendis earum pariatur odit aliquam veritatis ipsum mollitia porro commodi nisi expedita ad nulla, atque consequatur optio quas ab ipsam tempora, recusandae asperiores! Suscipit animi a ducimus et corporis alias fugiat, quos neque voluptatum nisi dolorum quo quasi, nihil, repellendus quibusdam accusantium quidem iure recusandae totam. Cupiditate ea et voluptate nemo, commodi quisquam earum iusto placeat unde cumque, consequuntur iure. Autem voluptatem voluptatibus temporibus minus id aperiam iusto culpa maxime dignissimos necessitatibus, neque nihil pariatur nesciunt!</p>
+                    <h3>Video Editing</h3>
+                    <p class="hit">Lorem Ipsum is simply dummy text of the printing typesetting industry. simply dummy</p>
                 </div>
                 <div class="service-card">
                     <i class="fa-solid fa-photo-film"></i>
-                <h3>Photography</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum possimus dolorum esse accusamus sequi soluta dolore qui pariatur ea ipsam ipsa eveniet, dignissimos enim consectetur. Ipsa aut obcaecati culpa voluptas, accusantium, alias doloremque nobis atque eaque, a esse odio ea vitae? Dignissimos eos, quod modi dolorem reiciendis odio repudiandae optio sunt debitis exercitationem sapiente temporibus, inventore facilis expedita sit fugit voluptas, tenetur veritatis eveniet deleniti fugiat minus. Similique maiores et neque. Voluptatibus unde voluptate perferendis earum pariatur odit aliquam veritatis ipsum mollitia porro commodi nisi expedita ad nulla, atque consequatur optio quas ab ipsam tempora, recusandae asperiores! Suscipit animi a ducimus et corporis alias fugiat, quos neque voluptatum nisi dolorum quo quasi, nihil, repellendus quibusdam accusantium quidem iure recusandae totam. Cupiditate ea et voluptate nemo, commodi quisquam earum iusto placeat unde cumque, consequuntur iure. Autem voluptatem voluptatibus temporibus minus id aperiam iusto culpa maxime dignissimos necessitatibus, neque nihil pariatur nesciunt!</p>
+                    <h3>Photography</h3>
+                    <p class="hit">Lorem Ipsum is simply dummy text of the printing typesetting industry. simply dummy</p>
                 </div>
                 <div class="service-card">
                     <i class="fa-brands fa-android"></i>
-                <h3>App development</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum possimus dolorum esse accusamus sequi soluta dolore qui pariatur ea ipsam ipsa eveniet, dignissimos enim consectetur. Ipsa aut obcaecati culpa voluptas, accusantium, alias doloremque nobis atque eaque, a esse odio ea vitae? Dignissimos eos, quod modi dolorem reiciendis odio repudiandae optio sunt debitis exercitationem sapiente temporibus, inventore facilis expedita sit fugit voluptas, tenetur veritatis eveniet deleniti fugiat minus. Similique maiores et neque. Voluptatibus unde voluptate perferendis earum pariatur odit aliquam veritatis ipsum mollitia porro commodi nisi expedita ad nulla, atque consequatur optio quas ab ipsam tempora, recusandae asperiores! Suscipit animi a ducimus et corporis alias fugiat, quos neque voluptatum nisi dolorum quo quasi, nihil, repellendus quibusdam accusantium quidem iure recusandae totam. Cupiditate ea et voluptate nemo, commodi quisquam earum iusto placeat unde cumque, consequuntur iure. Autem voluptatem voluptatibus temporibus minus id aperiam iusto culpa maxime dignissimos necessitatibus, neque nihil pariatur nesciunt!</p>
+                    <h3>App development</h3>
+                    <p class="hit">Lorem Ipsum is simply dummy text of the printing typesetting industry. simply dummy</p>
                 </div>
                 <div class="service-card">
                     <i class="fa-brands fa-figma"></i>
-                <h3>SEO Expert</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum possimus dolorum esse accusamus sequi soluta dolore qui pariatur ea ipsam ipsa eveniet, dignissimos enim consectetur. Ipsa aut obcaecati culpa voluptas, accusantium, alias doloremque nobis atque eaque, a esse odio ea vitae? Dignissimos eos, quod modi dolorem reiciendis odio repudiandae optio sunt debitis exercitationem sapiente temporibus, inventore facilis expedita sit fugit voluptas, tenetur veritatis eveniet deleniti fugiat minus. Similique maiores et neque. Voluptatibus unde voluptate perferendis earum pariatur odit aliquam veritatis ipsum mollitia porro commodi nisi expedita ad nulla, atque consequatur optio quas ab ipsam tempora, recusandae asperiores! Suscipit animi a ducimus et corporis alias fugiat, quos neque voluptatum nisi dolorum quo quasi, nihil, repellendus quibusdam accusantium quidem iure recusandae totam. Cupiditate ea et voluptate nemo, commodi quisquam earum iusto placeat unde cumque, consequuntur iure. Autem voluptatem voluptatibus temporibus minus id aperiam iusto culpa maxime dignissimos necessitatibus, neque nihil pariatur nesciunt!</p>
+                    <h3>SEO Expert</h3>
+                    <p class="hit">Lorem Ipsum is simply dummy text of the printing typesetting industry. simply dummy</p>
                 </div>
-                
-                
+
+
             </div>
         </section>
 
@@ -109,9 +125,14 @@
             <div id="leftbox"> <img src="images/about image.png" alt="Amike picture">
             </div>
             <h1>About </h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam itaque, fugiat molestiae neque tenetur blanditiis in voluptatibus odit sint, autem maxime qui! Voluptates, quaerat. Ad maxime facere ea saepe asperiores!</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam itaque, fugiat molestiae neque tenetur
+                blanditiis in voluptatibus odit sint, autem maxime qui! Voluptates, quaerat. Ad maxime facere ea saepe
+                asperiores!</p>
             <h2>Hi There</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore, esse deleniti incidunt ea quibusdam sit ipsam aspernatur aut voluptatem dolore quaerat voluptates odio nihil reiciendis dolores nam dignissimos temporibus et iure cupiditate quasi veniam. Suscipit facilis, ab, nemo blanditiis eveniet voluptas aspernatur sint facere voluptatum similique, ut consectetur fugit debitis!</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore, esse deleniti incidunt ea quibusdam sit
+                ipsam aspernatur aut voluptatem dolore quaerat voluptates odio nihil reiciendis dolores nam dignissimos
+                temporibus et iure cupiditate quasi veniam. Suscipit facilis, ab, nemo blanditiis eveniet voluptas
+                aspernatur sint facere voluptatum similique, ut consectetur fugit debitis!</p>
 
             <div id="left">
                 <div id="Name">
@@ -135,7 +156,7 @@
                 </div>
             </div>
 
-           
+
 
         </section>
 
@@ -143,7 +164,8 @@
             <div>
                 <div>
                     <h1>PORTFOLIO SHOWCASE</h1>
-                    <P>We’re a WordPress Theme Development company . With more than ten years of knowledge and expertise.</P>
+                    <P>We’re a WordPress Theme Development company . With more than ten years of knowledge and
+                        expertise.</P>
                 </div>
 
                 <div>
@@ -164,7 +186,7 @@
                             <h1>ART DIRECTION</h1>
                             <P>ROCK</P>
                         </div>
-                        
+
                         <img src="images/web treasure rock.jpg" alt="web treasure" width="250">
                         <div class="overlay">
                             <h1>WEB</h1>
@@ -174,42 +196,42 @@
                             <div class="overlay">
                                 <h1>DESIGN</h1>
                                 <p>PENCIL</p>
-                        </div>
+                            </div>
 
                         </div>
 
                         <div id="middlebox"></div>
-                            <img src="images/branding intime.jpg" alt="branding intime" width="250">
-                            <div class="overlay">
-                                <h1>BRANDING</h1>
-                                <p>INTIME</p>
-                            </div>
-
-                            <img src="images/branding craft.jpg" alt="branding handcraft" width="250">
-                            <div class="overlay">
-                                <h1>BRANDING</h1>
-                                <p>HANDCRAFT</p>
-                            </div>
+                        <img src="images/branding intime.jpg" alt="branding intime" width="250">
+                        <div class="overlay">
+                            <h1>BRANDING</h1>
+                            <p>INTIME</p>
                         </div>
-                        <div id="rightbox">
-                            <img src="images/design mockup.jpg" alt="design mockup">
-                            <div class="overlay">
-                                <h1>DESIGN</h1>
-                                <p>MOCKUP</p>
-                            </div>
 
-                            <img src="images/art direction daily note.jpg" alt="daily note" width="250">
-                            <div class="overlay">
-                                <h1>ART DIRECTION</h1>
-                                <p>DAILY NOTE</p>
-                            </div>
-
-                            <img src="images/web focus.jpg" alt="web focus">
-                            <div class="overlay">
-                                <h1>WEB</h1>
-                                <p>FOCUS</p>
-                            </div>
+                        <img src="images/branding craft.jpg" alt="branding handcraft" width="250">
+                        <div class="overlay">
+                            <h1>BRANDING</h1>
+                            <p>HANDCRAFT</p>
                         </div>
+                    </div>
+                    <div id="rightbox">
+                        <img src="images/design mockup.jpg" alt="design mockup">
+                        <div class="overlay">
+                            <h1>DESIGN</h1>
+                            <p>MOCKUP</p>
+                        </div>
+
+                        <img src="images/art direction daily note.jpg" alt="daily note" width="250">
+                        <div class="overlay">
+                            <h1>ART DIRECTION</h1>
+                            <p>DAILY NOTE</p>
+                        </div>
+
+                        <img src="images/web focus.jpg" alt="web focus">
+                        <div class="overlay">
+                            <h1>WEB</h1>
+                            <p>FOCUS</p>
+                        </div>
+                    </div>
 
 
                 </div>
@@ -220,7 +242,8 @@
             <div>
                 <h1>CHOOSE A PLAN</h1>
                 <h1>Pricing Plan</h1>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit sint libero dolore provident reiciendis quod quasi eius vitae nostrum obcaecati, ullam ab natus modi illo!</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit sint libero dolore provident
+                    reiciendis quod quasi eius vitae nostrum obcaecati, ullam ab natus modi illo!</p>
             </div>
 
             <div>
@@ -256,7 +279,7 @@
             </div>
 
         </div>
-        
+
         <div>
             <div>
                 <i class="fa-solid fa-user-plus"></i>
@@ -285,15 +308,21 @@
 
         <div>
             <div>
-                <div><h1>OUR TESTIMONIALS</h1></div>
+                <div>
+                    <h1>OUR TESTIMONIALS</h1>
+                </div>
                 <div>
                     <h2>Happy Clients Says</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit sint libero dolore provident reiciendis quod quasi eius vitae nostrum obcaecati, ullam ab natus modi illo!</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit sint libero dolore provident
+                        reiciendis quod quasi eius vitae nostrum obcaecati, ullam ab natus modi illo!</p>
                     <div><button type="button">Learn More</button></div>
                 </div>
 
                 <div>
-                    <div> <p><q>In promotion and of advertising testiomial shows consists of a person's written or spoken words extolling the virtue</q></p></div>
+                    <div>
+                        <p><q>In promotion and of advertising testiomial shows consists of a person's written or spoken
+                                words extolling the virtue</q></p>
+                    </div>
                     <i class="fa-regular fa-star"></i>
                     <i class="fa-regular fa-star"></i>
                     <i class="fa-regular fa-star"></i>
@@ -301,7 +330,7 @@
                     <i class="fa-regular fa-star"></i>
                     <div>
                         <div id="leftbox">
-                            <img src="images/1111.jpg" alt="circular image" class="circular image"> 
+                            <img src="images/1111.jpg" alt="circular image" class="circular image">
                             <img src="images/2222.jpg" alt="circular image" class="circular image">
                         </div>
                         <div>
@@ -310,7 +339,8 @@
                         </div>
                     </div>
                     <div>
-                        <button id="left" type="button"><i class="fa-solid fa-chevron-left"></i></button> <button id="right" type="button"><i class="fa-solid fa-chevron-right"></i></button>
+                        <button id="left" type="button"><i class="fa-solid fa-chevron-left"></i></button> <button
+                            id="right" type="button"><i class="fa-solid fa-chevron-right"></i></button>
                     </div>
                 </div>
             </div>
@@ -330,31 +360,32 @@
 
         <section id="skill">
             <div></div>
-                <div>
-                    <h1>I'M EXPERT ON</h1>
-                </div>
-                <h4>Let's Work Together</h4>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit sint libero dolore provident reiciendis quod quasi eius vitae nostrum obcaecati, ullam ab natus modi illo!</p>
+            <div>
+                <h1>I'M EXPERT ON</h1>
+            </div>
+            <h4>Let's Work Together</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit sint libero dolore provident reiciendis
+                quod quasi eius vitae nostrum obcaecati, ullam ab natus modi illo!</p>
 
-                <div>
-                    <button type="button">Hire Me Now</button>
-                </div>
+            <div>
+                <button type="button">Hire Me Now</button>
+            </div>
 
-                <div id="rightin">
-                    <h4>HTML</h4>
-                    <P>70%</P>
+            <div id="rightin">
+                <h4>HTML</h4>
+                <P>70%</P>
 
-                    <h5>CSS</h5>
-                    <p>20%</p>
+                <h5>CSS</h5>
+                <p>20%</p>
 
-                    <h6>JS</h6>
-                    <p>10%</p>
+                <h6>JS</h6>
+                <p>10%</p>
 
-                    <h7>PHP</h7>
-                    <p>10%</p>
-                </div>
+                <h7>PHP</h7>
+                <p>10%</p>
+            </div>
 
-                
+
             </div>
         </section>
 
@@ -363,7 +394,9 @@
                 <div>
                     <h1>OUR BLOG</h1>
                     <h1>Latest Blog</h1>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias incidunt, sint, dolor similique aliquam ut delectus debitis cumque harum repellendus aut nulla sed eaque laboriosam. Debitis voluptas aperiam molestias quos.</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias incidunt, sint, dolor
+                        similique aliquam ut delectus debitis cumque harum repellendus aut nulla sed eaque laboriosam.
+                        Debitis voluptas aperiam molestias quos.</p>
                 </div>
                 <div>
                     <div>
@@ -419,7 +452,9 @@
                 <div>
                     <h1>HAVE ANY QUERY?</h1>
                     <h1>CONTACT ME</h1>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem suscipit possimus consectetur, dignissimos, inventore natus aliquam nam, doloremque modi cum asperiores atque laboriosam officia libero repudiandae omnis dolore repellendus ad?</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem suscipit possimus
+                        consectetur, dignissimos, inventore natus aliquam nam, doloremque modi cum asperiores atque
+                        laboriosam officia libero repudiandae omnis dolore repellendus ad?</p>
                 </div>
 
                 <div>
@@ -445,43 +480,46 @@
                         <div>
                             <div>
                                 <label for="name">your name</label>
-                                <input type="text" placeholder="type your name"> 
+                                <input type="text" placeholder="type your name">
                             </div>
-                
+
                             <div>
                                 <label for="email">your email</label>
                                 <input type="email" placeholder="your emial">
                             </div>
 
-                
+
                         </div>
                         <br>
                         <label for="Your subject"></label>
                         <input type="text" placeholder="Your subject">
 
                         <br>
-                        <td><textarea name="message" id="message" cols="30" rows="10" placeholder="type your message"></textarea></td>
+                        <td><textarea name="message" id="message" cols="30" rows="10"
+                                placeholder="type your message"></textarea></td>
 
 
 
-                        
-                         
+
+
                         <div>
                             <button type="button">send message</button>
                         </div>
-                        
-                        
-                    
+
+
+
                     </div>
                 </div>
             </div>
         </section>
-      </main>
+    </main>
 
-      <!-- footer part -->
-       <footer>
+    <!-- footer part -->
+    <footer>
         <div>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In, ducimus fugiat! Possimus, fugiat culpa. Mollitia, quasi! Sed, quis, modi ipsam omnis adipisci facilis a accusamus error earum alias totam. Error!</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In, ducimus fugiat! Possimus, fugiat culpa.
+                Mollitia, quasi! Sed, quis, modi ipsam omnis adipisci facilis a accusamus error earum alias totam.
+                Error!</p>
 
             <div>
                 <i class="fa-brands fa-facebook"></i>
@@ -490,8 +528,11 @@
                 <i class="fa-brands fa-pinterest"></i>
             </div>
 
-            <div><p>Copyright © 2024 Ami.ke All rights reserved</p></div>
+            <div>
+                <p>Copyright © 2024 Ami.ke All rights reserved</p>
+            </div>
         </div>
-       </footer>
+    </footer>
 </body>
+
 </html>
